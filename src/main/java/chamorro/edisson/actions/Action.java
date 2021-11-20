@@ -23,7 +23,7 @@ public class Action extends PageGuruRegister {
 
 		myBrowser.navigate().to(url);
 
-	}
+	} 
 
 	public static void sendData(WebDriver myBrowser, By target, String strData) {
 

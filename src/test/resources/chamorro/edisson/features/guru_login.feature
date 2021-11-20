@@ -6,6 +6,7 @@ Feature: Registrar nuevo custumer en guru99
   Scenario: Despues de logearme
     Given Dado que estoy en la url:"http://demo.guru99.com/V4/"
     When Ingreso datos de usuario
-      | user     | mgr123 |
-      | password | mgr!23 |
+      | user        | mgr123 |
+      | password    | mgr!23 |
+      | button name | LOGIN  |
     Then Verifico el mensaje "Manajer Id: mgr123"
