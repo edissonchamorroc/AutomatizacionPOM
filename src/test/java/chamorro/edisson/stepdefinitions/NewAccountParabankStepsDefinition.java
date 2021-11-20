@@ -1,9 +1,8 @@
-package com.sophossolutions.stepdefinitions;
+package chamorro.edisson.stepdefinitions;
 
-import com.sophossolutions.pages.PageAccountOverviewParabank;
-import com.sophossolutions.pages.PageLoginParabank;
-import com.sophossolutions.pages.PageNewAccountParabank;
-
+import chamorro.edisson.pages.PageAccountOverviewParabank;
+import chamorro.edisson.pages.PageLoginParabank;
+import chamorro.edisson.pages.PageNewAccountParabank;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;

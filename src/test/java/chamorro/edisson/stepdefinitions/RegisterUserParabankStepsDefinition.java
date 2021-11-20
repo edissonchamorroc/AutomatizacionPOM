@@ -1,9 +1,7 @@
-package com.sophossolutions.stepdefinitions;
+package chamorro.edisson.stepdefinitions;
 
-import com.sophossolutions.pages.PageLoginParabank;
-import com.sophossolutions.pages.PageGuruRegister;
-import com.sophossolutions.pages.PageRegisterUserParabank;
-
+import chamorro.edisson.pages.PageLoginParabank;
+import chamorro.edisson.pages.PageRegisterUserParabank;
 import io.cucumber.datatable.DataTable;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;

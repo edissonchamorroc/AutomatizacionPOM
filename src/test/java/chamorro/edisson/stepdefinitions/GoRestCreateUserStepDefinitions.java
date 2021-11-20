@@ -1,7 +1,6 @@
-package com.sophossolutions.stepdefinitions;
+package chamorro.edisson.stepdefinitions;
 
-import com.sophossolutions.actions.RestInteraction;
-
+import chamorro.edisson.actions.RestInteraction;
 import io.cucumber.datatable.DataTable;
 import io.cucumber.java.en.When;
 

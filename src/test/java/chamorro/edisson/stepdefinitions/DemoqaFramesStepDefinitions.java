@@ -1,8 +1,7 @@
-package com.sophossolutions.stepdefinitions;
+package chamorro.edisson.stepdefinitions;
 
-import com.sophossolutions.pages.PageFramesDemoqa;
-import com.sophossolutions.pages.PageHomeDemoqa;
-
+import chamorro.edisson.pages.PageFramesDemoqa;
+import chamorro.edisson.pages.PageHomeDemoqa;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;

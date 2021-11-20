@@ -1,4 +1,4 @@
-package com.sophossolutions.runners;
+package chamorro.edisson.runners;
 
 import org.junit.runner.RunWith;
 
@@ -8,8 +8,8 @@ import net.serenitybdd.cucumber.CucumberWithSerenity;
 
 @RunWith(CucumberWithSerenity.class)
 @CucumberOptions(
-		glue = "com.sophossolutions.stepdefinitions",
-		features = "src/test/resources/com/sophossolutions/features/new_account_parabank.feature",
+		glue = "chamorro.edisson.stepdefinitions",
+		features = "src/test/resources/chamorro/edisson/features/new_account_parabank.feature",
 		snippets = SnippetType.CAMELCASE
 		)
 public class NewAccountParabank {

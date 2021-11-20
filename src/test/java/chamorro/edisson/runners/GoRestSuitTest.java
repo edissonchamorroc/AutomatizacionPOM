@@ -1,4 +1,4 @@
-package com.sophossolutions.runners;
+package chamorro.edisson.runners;
 
 import org.junit.runner.RunWith;
 

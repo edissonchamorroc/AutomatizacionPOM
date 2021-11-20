@@ -1,8 +1,7 @@
-package com.sophossolutions.stepdefinitions;
+package chamorro.edisson.stepdefinitions;
 
-import com.sophossolutions.pages.PageDemoqaWindows;
-import com.sophossolutions.utils.Constant;
-
+import chamorro.edisson.pages.PageDemoqaWindows;
+import chamorro.edisson.utils.Constant;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
 public class DemoqaWindowStepDefinitions {

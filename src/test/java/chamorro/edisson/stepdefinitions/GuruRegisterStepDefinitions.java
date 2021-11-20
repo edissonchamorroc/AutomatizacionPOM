@@ -1,7 +1,6 @@
-package com.sophossolutions.stepdefinitions;
+package chamorro.edisson.stepdefinitions;
 
-import com.sophossolutions.pages.PageGuruRegister;
-
+import chamorro.edisson.pages.PageGuruRegister;
 import io.cucumber.java.en.When;
 
 public class GuruRegisterStepDefinitions {

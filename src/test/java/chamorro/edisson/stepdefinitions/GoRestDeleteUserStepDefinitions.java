@@ -1,10 +1,6 @@
-package com.sophossolutions.stepdefinitions;
+package chamorro.edisson.stepdefinitions;
 
-import com.sophossolutions.actions.RestInteraction;
-import com.sophossolutions.utils.Constant;
-
-import io.cucumber.java.en.Given;
-import io.cucumber.java.en.Then;
+import chamorro.edisson.actions.RestInteraction;
 import io.cucumber.java.en.When;
 
 public class GoRestDeleteUserStepDefinitions {

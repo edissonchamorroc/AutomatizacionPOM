@@ -1,11 +1,10 @@
-package com.sophossolutions.stepdefinitions;
+package chamorro.edisson.stepdefinitions;
 
-import com.sophossolutions.pages.PageLastMinuteDataCreditCard;
-import com.sophossolutions.pages.PageLastMinuteDataTravellers;
-import com.sophossolutions.pages.PageLastMinuteHome;
-import com.sophossolutions.pages.PageLastMinuteListPrices;
-import com.sophossolutions.utils.Constant;
-
+import chamorro.edisson.pages.PageLastMinuteDataCreditCard;
+import chamorro.edisson.pages.PageLastMinuteDataTravellers;
+import chamorro.edisson.pages.PageLastMinuteHome;
+import chamorro.edisson.pages.PageLastMinuteListPrices;
+import chamorro.edisson.utils.Constant;
 import io.cucumber.datatable.DataTable;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;

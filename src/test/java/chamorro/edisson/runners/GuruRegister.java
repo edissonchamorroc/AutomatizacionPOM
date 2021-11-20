@@ -1,4 +1,4 @@
-package com.sophossolutions.runners;
+package chamorro.edisson.runners;
 
 import org.junit.runner.RunWith;
 
@@ -8,8 +8,8 @@ import net.serenitybdd.cucumber.CucumberWithSerenity;
 
 @RunWith(CucumberWithSerenity.class)
 @CucumberOptions(
-		glue = "com.sophossolutions.stepdefinitions",
-		features = "src/test/resources/com/sophossolutions/features/guru_register.feature",
+		glue = "chamorro.edisson.stepdefinitions",
+		features = "src/test/resources/chamorro/edisson/features/guru_register.feature",
 		snippets = SnippetType.CAMELCASE
 		)
 public class GuruRegister {
