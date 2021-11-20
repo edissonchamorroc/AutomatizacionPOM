@@ -4,12 +4,12 @@
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 
-	<groupId>chamorro</groupId>
-	<artifactId>POM</artifactId>
+	<groupId>com.sophossolutions</groupId>
+	<artifactId>SemilleroPOM</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<packaging>jar</packaging>
 
-	<name>POM</name>
+	<name>SemilleroPOM</name>
 	<url>http://www.example.com</url>
 
 	<properties>
@@ -78,7 +78,6 @@
 			<artifactId>slf4j-api</artifactId>
 			<version>2.0.0-alpha1</version>
 		</dependency>
-
 	</dependencies>
 
 	<build>
@@ -108,7 +107,7 @@
 				<artifactId>serenity-maven-plugin</artifactId>
 				<version>${serenity.maven.version}</version>
 				<configuration>
-					<tag>${tags}</tag>
+					<tags>${tags}</tags>
 				</configuration>
 				<executions>
 					<execution>
@@ -126,8 +125,8 @@
 				<version>0.8.4</version>
 				<configuration>
 					<destFile>target/jacoco.exec</destFile>
-					<detaFile>target/jacoco.exec</detaFile>
-					<outputDirectory>target/reports/coverage</outputDirectory>
+					<dataFile>target/jacoco.exec</dataFile>
+					<outputDirectory>target/reports/coverage/</outputDirectory>
 					<append>true</append>
 				</configuration>
 				<executions>
